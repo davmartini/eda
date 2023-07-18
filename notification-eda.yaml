@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+
+    - name: Print norification message
+      ansible.builtin.debug:
+        msg: "EDA Notification"
