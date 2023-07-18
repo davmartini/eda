@@ -3,8 +3,8 @@
   hosts: all
   sources:
     - dynatrace.eda.dt_esa_api:
-        dt_api_host: "test"
-        dt_api_token: "test"
+        dt_api_host: "{{ dynatrace_url }}"
+        dt_api_token: "{{ dynatrace_token }}"
         delay: 60 (Default is 1 min) i.e plugin runs every 1 minute
 
   rules:
