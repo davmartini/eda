@@ -12,5 +12,5 @@
       condition: event.payload.problemTitle contains "CPU saturation"
       action:
         run_job_template:
-          name: "Remediate CPU saturation issue"
-          organization: "Default"
+          name: "EDA - Notification"
+          organization: "HPE-CIC"
